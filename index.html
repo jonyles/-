@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고려대 vs 연세대 비교</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: left;
+        }
+
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .university {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            width: 45%; /* Adjust width for responsiveness */
+            border: 2px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .university:hover {
+            border-color: #3498db; /* Blue border on hover */
+        }
+
+        .university.red {
+            border-color: #e74c3c; /* Red border for Korea University */
+        }
+
+        .university.blue {
+            border-color: #3498db; /* Blue border for Yonsei University */
+        }
+
+        .university h2 {
+            color: #3498db; /* Blue heading color */
+            margin-bottom: 10px;
+        }
+
+        .attribute {
+            margin-bottom: 10px;
+        }
+
+        .attribute strong {
+            font-weight: bold;
+        }
+
+        .image {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .university {
+                width: 100%; /* Full width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>고려대 vs 연세대 비교</h1>
+
+    <div class="container">
+        <div class="university red">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Korea_University_Main_Building.jpg/800px-Korea_University_Main_Building.jpg" alt="고려대학교" class="image">
+            <h2>고려대학교</h2>
+            <div class="attribute">
+                <strong>설립 연도:</strong> 1905년
+            </div>
+            <div class="attribute">
+                <strong>위치:</strong> 서울특별시 성북구 안암동
+            </div>
+            <div class="attribute">
+                <strong>학생 수:</strong> 약 37,000명
+            </div>
+            <div class="attribute">
+                <strong>캠퍼스:</strong> 안암캠퍼스, 고대구로캠퍼스
+            </div>
+            <div class="attribute">
+                <strong>대표학과:</strong> 경제학, 법학, 의과대학
+            </div>
+            <div class="attribute">
+                <strong>교육 방식:</strong> 4-1-4 학사제
+            </div>
+            <div class="attribute">
+                <strong>대표교수:</strong> 정익준 (경제학)
+            </div>
+        </div>
+
+        <div class="university blue">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yonsei_University_Main_Gate.jpg/800px-Yonsei_University_Main_Gate.jpg" alt="연세대학교" class="image">
+            <h2>연세대학교</h2>
+            <div class="attribute">
+                <strong>설립 연도:</strong> 1885년
+            </div>
+            <div class="attribute">
+                <strong>위치:</strong> 서울특별시 서대문구 신촌동
+            </div>
+            <div class="attribute">
+                <strong>학생 수:</strong> 약 38,000명
+            </div>
+            <div class="attribute">
+                <strong>캠퍼스:</strong> 신촌캠퍼스, 여의도국제캠퍼스
+            </div>
+            <div class="attribute">
+                <strong>대표학과:</strong> 경영학, 신문방송학, 의과대학
+            </div>
+            <div class="attribute">
+                <strong>교육 방식:</strong> 3-2-2 학사제
+            </div>
+            <div class="attribute">
+                <strong>대표교수:</strong> 송동엽 (신문방송학)
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
